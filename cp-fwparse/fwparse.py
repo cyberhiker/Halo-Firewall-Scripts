@@ -1,38 +1,21 @@
+#!/usr/bin/python
+#
 __author__ = 'Chris Burton'
 
 import json
+import requests
+import func
 from collections import OrderedDict
 from json import JSONDecoder
 
-
-def make_unique(key, dct):
-    counter = 0
-    unique_key = key
-
-    while unique_key in dct:
-        counter += 1
-        unique_key = '{}_{}'.format(key, counter)
-    return unique_key
-
-
-def parse_object_pairs(pairs):
-    dct = OrderedDict()
-    for key, value in pairs:
-        if key in dct:
-            key = make_unique(key, dct)
-        dct[key] = value
-
-    return dct
-
-
-ZoneFile = '/Users/cburton/Downloads/20150708-FW-Zone-Dump.json'
-RuleFile = '/Users/cburton/Downloads/20150708-FW-Rule-Dump.json'
+ZoneFile = '/Users/chris/Google Drive/20150708-FW-Zone-Dump.json'
+RuleFile = '/Users/chris/Google Drive/20150708-FW-Rule-Dump.json'
 
 Zones = open(ZoneFile)
 ZoneData = json.load(Zones)
 
 Rules = open(RuleFile)
-decoder = JSONDecoder(object_pairs_hook=parse_object_pairs)
+decoder = JSONDecoder(object_pairs_hook=func.parse_object_pairs)
 RuleData = decoder.decode(Rules.read())
 #RuleData = json.load(Rules)
 
