@@ -1,61 +1,80 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 __author__ = 'Chris Burton'
 
+doc = """
+Usage:
+  fwparse.py [-o FILE]
+  fwparse.py (-h | --help)
+  fwparse.py (-v | --version)
+
+Options:
+  -o FILE   Output to a specified file.
+  -h --help     Show this screen.
+  -v --version  Show version.
+
+"""
+
 import json
-import requests
 import func
+import requests
 import yaml
 from collections import OrderedDict
 from json import JSONDecoder
+from docopt import docopt
 
-stream = open("settings.conf", 'r')
-settings = yaml.load(stream)
+if __name__ == '__main__':
+    arguments = docopt(doc, version='0.1')
+    #print(arguments)
 
-ZoneFile = '/Users/chris/Google Drive/20150708-FW-Zone-Dump.json'
-RuleFile = '/Users/chris/Google Drive/20150708-FW-Rule-Dump.json'
+settings = yaml.load(open("settings.yml", 'r'))
+url = 'https://' + settings['host'] + '/v1/'
 
-Zones = open(ZoneFile)
-ZoneData = json.load(Zones)
+authHeader = func.authenticate()
 
-Rules = open(RuleFile)
-decoder = JSONDecoder(object_pairs_hook=func.parse_object_pairs)
-RuleData = decoder.decode(Rules.read())
-#RuleData = json.load(Rules)
+Policies = requests.get(url + 'firewall_policies', headers=authHeader)
+print(str(Policies.json()))
+PolicyData = Policies.json()
+
+if PolicyData['count'] == 0:
+    print('No Policies Available.')
+    quit()
 
 MyLine = 'Name|Source IP(s)|Description|Application Name|Direction|Action|Service Name|Port|Protocol'
 print (MyLine)
-for s in ZoneData['firewall_zones']:
+
+for s in PolicyData['firewall_policies']:
+    policyID = s['id']
     zoneID = ''
 
-    try:
-        zoneID = str(s['used_by'][0]['id'])
-    except IndexError:
-        pass
+    for zone in s['used_by']:
+        try:
+            zoneID = str(s['used_by'][0]['id'])
+        except IndexError:
+            pass
+    print(zoneID)
 
-    if zoneID != '':
-        for key, policy in RuleData.items():
-            ruleID = policy['id']
-            name = policy['name']
+    Rules = requests.get(url + 'firewall_policies/'+ policyID + '/firewall_rules', headers=authHeader)
+    RuleData = json.loads(Rules.json())
 
-            if zoneID == ruleID:
+    for key, policy in RuleData.items():
+        ruleID = policy['id']
+        name = policy['name']
 
-                for rule in policy['firewall_rules']:
-                    try:
-                        MyLine = s['name'] + '|' + s['ip_address'] + '|' + \
-                                 str(s['description']).replace('|',' ').strip() + '|' + \
-                                 name + '|' + \
-                                 rule['chain'] + '|' + \
-                                 rule['action'] + '|' + \
-                                 rule['firewall_service']['name'] + '|' + \
-                                 rule['firewall_service']['port'] + '|' + \
-                                 rule['firewall_service']['protocol']
-                    except TypeError:
-                        pass
-                        #print('Type Error: ' + str(rule))
-                    except KeyError:
-                        pass
+        for rule in policy['firewall_rules']:
+            try:
+                MyLine = s['name'] + '|' + s['ip_address'] + '|' + \
+                         str(s['description']).replace('|',' ').strip() + '|' + \
+                         name + '|' + \
+                         rule['chain'] + '|' + \
+                         rule['action'] + '|' + \
+                         rule['firewall_service']['name'] + '|' + \
+                         rule['firewall_service']['port'] + '|' + \
+                         rule['firewall_service']['protocol']
+            except TypeError:
+                pass
+                #print('Type Error: ' + str(rule))
+            except KeyError:
+                pass
 
-                    print(MyLine)
-                    
-print(settings['host'])
+            print(MyLine)

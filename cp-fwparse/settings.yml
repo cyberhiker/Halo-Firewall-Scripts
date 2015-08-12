@@ -8,7 +8,7 @@
 
 iterations: 10
 servergroupname: ''
-clientid: ''
-clientsecret: ''
+clientid: '1c859dfc'
+clientsecret: '57c1f9bcf2447129b11d8dfb812f5a7f'
 
-host: 'api.cloudpassage.com'
+host: 'api-govcloud.cloudpassage.com'
