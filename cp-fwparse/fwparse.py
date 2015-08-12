@@ -4,17 +4,13 @@ __author__ = 'Chris Burton'
 
 doc = """
 
-Usage:
-  fwparse.py [-o FILE]
-  fwparse.py [-s FILE]
-  fwparse.py (-h | --help)
-  fwparse.py (-v | --version)
-
-Options:
-  -o FILE   Output to a specified file.
-  -s FILE   Specify a settings file.
-  -h --help     Show this screen.
-  -v --version  Show version.
+Usage: fwparse.py
+  [-o FILE]          Output to a specified file.
+  [-s FILE]          Specify a settings file.
+  [(-q -o FILE)]     Quietly, must specify -o
+  (-d | --debug)     Loudly, Debug mode
+  (-h | --help)      Show this screen.
+  (-v | --version)   Show version.
 
 """
 
@@ -40,20 +36,25 @@ if arguments['-s'] != None:
 else:
     settings = yaml.load(open("settings.yml", 'r'))
 
+if arguments['-q'] != None:
+    if arguments['-o'] == None:
+        print('-o must be specified if using -q')
+        quit()
+
 url = 'https://' + settings['host'] + '/v1/'
 
-authHeader = func.authenticate()
+authHeader = func.authenticate(arguments)
 
 Policies = requests.get(url + 'firewall_policies', headers=authHeader)
-print(str(Policies.json()))
+func.debugoutput(arguments['-d'], str(Policies.json()))
 PolicyData = Policies.json()
 
 if PolicyData['count'] == 0:
-    print('No Policies Available.')
+    func.outputting(arguments['-q'], arguments['-o'], 'No Policies Available.')
     quit()
 
 MyLine = 'Name|Source IP(s)|Description|Application Name|Direction|Action|Service Name|Port|Protocol'
-print (MyLine)
+func.outputting(arguments['-q'], arguments['-o'], MyLine)
 
 for s in PolicyData['firewall_policies']:
     policyID = s['id']
@@ -64,7 +65,7 @@ for s in PolicyData['firewall_policies']:
             zoneID = str(s['used_by'][0]['id'])
         except IndexError:
             pass
-    print(zoneID)
+    func.debugoutput(arguments['-d'], zoneID)
 
     Rules = requests.get(url + 'firewall_policies/'+ policyID + '/firewall_rules', headers=authHeader)
     RuleData = json.loads(Rules.json())
@@ -89,4 +90,4 @@ for s in PolicyData['firewall_policies']:
             except KeyError:
                 pass
 
-            print(MyLine)
+            func.outputting(arguments['-q'], arguments['-o'], MyLine)

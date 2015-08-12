@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 
 __author__ = 'Chris Burton'
@@ -27,17 +27,38 @@ def parse_object_pairs(pairs):
 
     return dct
 
+def debugoutput(flag, text):
+    if flag != None:
+        #Output to screen
+        print(text)
+
+def outputting(verbosity, outputfile, text):
+    if outputfile != None:
+        #Write out the File
+
+        if verbosity != None:
+            print(text)
+
+    else:
+        #Don't write to file, but you will be seeing text
+        print(text)
+
 # Returns a valid Authorization header
-def authenticate():
+def authenticate(arguments):
     import base64
 
     settings = yaml.load(open("settings.yml", 'r'))
     url = 'https://' + settings['host'] + '/'
+    func.debugoutput(arguments['-d'], url)
 
     decoded = settings['clientid'] + ':' + settings['clientsecret']
     encoded = base64.b64encode(decoded.encode('utf-8'))
-    headers = {'Authorization': 'Basic ' + encoded.decode('ascii')}
+    func.debugoutput(arguments['-d'], encoded)
 
+    headers = {'Authorization': 'Basic ' + encoded.decode('ascii')}
+    func.debugoutput(arguments['-d'], headers)
+
+    delay = 1
     for i in range(settings['iterations']):
         while True:
             try:
@@ -49,21 +70,28 @@ def authenticate():
                     authjson = authresponse.json()
 
                     authHeader = {'Authorization': 'Bearer ' + authjson['access_token']}
+                    func.debugoutput(arguments['-d'], authHeader.json())
+
                     return authHeader
 
             except requests.exceptions.ConnectionError as e:
-                print('Could not Connect to Halo Instance. \nCheck your settings.yaml and try again.')
+                func.outputting(arguments['-q'], arguments['-o'], 'Could not Connect to Halo Instance. \nCheck your settings.yaml and try again.')
                 quit()
             except requests.exceptions.HTTPError as e:
-                print(str(e) + ' \nCheck your settings.yaml or Contact Customer Success')
+                func.outputting(arguments['-q'], arguments['-o'], str(e) + ' \nCheck your settings.yaml and try again.')
                 quit()
             except requests.exceptions.URLRequired:
-                print('The URL is incorrectly formed.')
+                func.outputting(arguments['-q'], arguments['-o'], 'The URL is incorrectly formed. \nCheck your settings.yaml and try again.')
                 quit()
             except requests.exceptions.TooManyRedirects:
-                print('Too Many Redirects to be healthy.  Giving up')
+                func.outputting(arguments['-q'], arguments['-o'], 'Too Many Redirects to be healthy.  Giving up')
                 quit()
             except requests.exceptions.Timeout:
-                print('The request timed due to network or server problems.\n Retrying.')
+                attempts = settings['iterations'] - i
+                func.outputting(arguments['-q'], arguments['-o'], 'The request timed due to network or server problems.  Trying {0} more times.'.format(attempts))
+                polling_time = time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime())
+                func.outputting(arguments['-q'], arguments['-o'], "{0}. Sleeping for {1} seconds.".format(polling_time, delay))
+                time.sleep(delay)
+                delay *= 2
                 continue
             break
