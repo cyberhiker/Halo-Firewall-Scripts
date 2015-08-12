@@ -5,7 +5,7 @@ Repository of scripts for doing Firewall Rule reporting with the Halo API.  This
 
 ```
 git clone https://github.com/cyberhiker/halo-fw-scripts
-cd cp--parse
+cd cp-fwparse
 pip install -r requirements.txt
 ```
 
