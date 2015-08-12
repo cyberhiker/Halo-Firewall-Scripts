@@ -1,5 +1,5 @@
-# halo-fw-scripts
-Repository of scripts for doing Firewall Rule reporting with the Halo API.  This
+# Firewall Scripts for CloudPassage Halo
+Repository of scripts for doing Firewall Rule reporting with the Halo API.  This is intended give a quick way of dumping firewall rules into a text format for parsing, slicing and dicing.  Output is pipe (|) delimited.
 
 ## Install
 
