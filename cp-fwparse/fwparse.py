@@ -5,8 +5,12 @@ __author__ = 'Chris Burton'
 import json
 import requests
 import func
+import yaml
 from collections import OrderedDict
 from json import JSONDecoder
+
+stream = open("settings.conf", 'r')
+settings = yaml.load(stream)
 
 ZoneFile = '/Users/chris/Google Drive/20150708-FW-Zone-Dump.json'
 RuleFile = '/Users/chris/Google Drive/20150708-FW-Rule-Dump.json'
@@ -53,3 +57,5 @@ for s in ZoneData['firewall_zones']:
                         pass
 
                     print(MyLine)
+                    
+print(settings['host'])
