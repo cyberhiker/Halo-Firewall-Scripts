@@ -3,13 +3,16 @@
 __author__ = 'Chris Burton'
 
 doc = """
+
 Usage:
   fwparse.py [-o FILE]
+  fwparse.py [-s FILE]
   fwparse.py (-h | --help)
   fwparse.py (-v | --version)
 
 Options:
   -o FILE   Output to a specified file.
+  -s FILE   Specify a settings file.
   -h --help     Show this screen.
   -v --version  Show version.
 
@@ -17,6 +20,7 @@ Options:
 
 import json
 import func
+import os.path
 import requests
 import yaml
 from collections import OrderedDict
@@ -25,9 +29,17 @@ from docopt import docopt
 
 if __name__ == '__main__':
     arguments = docopt(doc, version='0.1')
-    #print(arguments)
 
-settings = yaml.load(open("settings.yml", 'r'))
+if arguments['-s'] != None:
+    if os.path.exists(arguments['-s']) == True:
+        print("Using Command Line Specified File")
+        settings = yaml.load(open(arguments['-s'], 'r'))
+    else:
+        print(arguments['-s'] + " does not exist.\n")
+        quit()
+else:
+    settings = yaml.load(open("settings.yml", 'r'))
+
 url = 'https://' + settings['host'] + '/v1/'
 
 authHeader = func.authenticate()
