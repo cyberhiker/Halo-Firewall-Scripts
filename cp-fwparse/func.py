@@ -28,15 +28,15 @@ def parse_object_pairs(pairs):
     return dct
 
 def debugoutput(flag, text):
-    if flag != None:
+    if flag == True:
         #Output to screen
         print(text)
 
-def outputting(verbosity, outputfile, text):
+def outputting(quiet, outputfile, text):
     if outputfile != None:
         #Write out the File
 
-        if verbosity != None:
+        if quiet == False:
             print(text)
 
     else:
@@ -49,14 +49,14 @@ def authenticate(arguments):
 
     settings = yaml.load(open("settings.yml", 'r'))
     url = 'https://' + settings['host'] + '/'
-    func.debugoutput(arguments['-d'], url)
+    debugoutput(arguments['-d'], url)
 
     decoded = settings['clientid'] + ':' + settings['clientsecret']
     encoded = base64.b64encode(decoded.encode('utf-8'))
-    func.debugoutput(arguments['-d'], encoded)
+    debugoutput(arguments['-d'], encoded)
 
     headers = {'Authorization': 'Basic ' + encoded.decode('ascii')}
-    func.debugoutput(arguments['-d'], headers)
+    debugoutput(arguments['-d'], headers)
 
     delay = 1
     for i in range(settings['iterations']):
@@ -70,27 +70,65 @@ def authenticate(arguments):
                     authjson = authresponse.json()
 
                     authHeader = {'Authorization': 'Bearer ' + authjson['access_token']}
-                    func.debugoutput(arguments['-d'], authHeader.json())
+                    debugoutput(arguments['-d'], authHeader.json())
 
                     return authHeader
 
             except requests.exceptions.ConnectionError as e:
-                func.outputting(arguments['-q'], arguments['-o'], 'Could not Connect to Halo Instance. \nCheck your settings.yaml and try again.')
+                outputting(arguments['-q'], arguments['-o'], 'Could not Connect to Halo Instance. \nCheck your settings.yaml and try again.')
                 quit()
             except requests.exceptions.HTTPError as e:
-                func.outputting(arguments['-q'], arguments['-o'], str(e) + ' \nCheck your settings.yaml and try again.')
+                outputting(arguments['-q'], arguments['-o'], str(e) + ' \nCheck your settings.yaml and try again.')
                 quit()
             except requests.exceptions.URLRequired:
-                func.outputting(arguments['-q'], arguments['-o'], 'The URL is incorrectly formed. \nCheck your settings.yaml and try again.')
+                outputting(arguments['-q'], arguments['-o'], 'The URL is incorrectly formed. \nCheck your settings.yaml and try again.')
                 quit()
             except requests.exceptions.TooManyRedirects:
-                func.outputting(arguments['-q'], arguments['-o'], 'Too Many Redirects to be healthy.  Giving up')
+                outputting(arguments['-q'], arguments['-o'], 'Too many redirects to be healthy.  Bravely giving up.')
                 quit()
             except requests.exceptions.Timeout:
                 attempts = settings['iterations'] - i
-                func.outputting(arguments['-q'], arguments['-o'], 'The request timed due to network or server problems.  Trying {0} more times.'.format(attempts))
+                outputting(arguments['-q'], arguments['-o'], 'The request timed due to network or server problems.  Trying {0} more times.'.format(attempts))
                 polling_time = time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime())
-                func.outputting(arguments['-q'], arguments['-o'], "{0}. Sleeping for {1} seconds.".format(polling_time, delay))
+                outputting(arguments['-q'], arguments['-o'], "{0}.  Napping for {1} seconds.".format(polling_time, delay))
+                time.sleep(delay)
+                delay *= 2
+                continue
+            break
+
+#Returns Requested json
+def apiCall(url, headers)
+    debugoutput(arguments['-d'], url)
+
+    delay = 1
+    for i in range(settings['iterations']):
+        while True:
+            try:
+                r = requests.get(url, headers=headers)
+
+                if r.status_code != 200:
+                    r.raise_for_status()
+                else:
+                    debugoutput(arguments['-d'], r.json())
+                    return r.json()
+
+            except requests.exceptions.ConnectionError as e:
+                outputting(arguments['-q'], arguments['-o'], 'Could not Connect to Halo Instance. \nCheck your settings.yaml and try again.')
+                quit()
+            except requests.exceptions.HTTPError as e:
+                outputting(arguments['-q'], arguments['-o'], str(e) + ' \nCheck your settings.yaml and try again.')
+                quit()
+            except requests.exceptions.URLRequired:
+                outputting(arguments['-q'], arguments['-o'], 'The URL is incorrectly formed. \nCheck your settings.yaml and try again.')
+                quit()
+            except requests.exceptions.TooManyRedirects:
+                outputting(arguments['-q'], arguments['-o'], 'Too many redirects to be healthy.  Bravely giving up.')
+                quit()
+            except requests.exceptions.Timeout:
+                attempts = settings['iterations'] - i
+                outputting(arguments['-q'], arguments['-o'], 'The request timed due to network or server problems.  Trying {0} more times.'.format(attempts))
+                polling_time = time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime())
+                outputting(arguments['-q'], arguments['-o'], "{0}.  Napping for {1} seconds.".format(polling_time, delay))
                 time.sleep(delay)
                 delay *= 2
                 continue

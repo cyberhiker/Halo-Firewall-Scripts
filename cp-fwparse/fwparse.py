@@ -3,14 +3,20 @@
 __author__ = 'Chris Burton'
 
 doc = """
+Usage:
+  fwparse.py [-o FILE]
+  fwparse.py [-s FILE]
+  fwparse.py [(-q -o FILE)]
+  fwparse.py -d
+  fwparse.py -h
+  fwparse.py -v
 
-Usage: fwparse.py
-  [-o FILE]          Output to a specified file.
-  [-s FILE]          Specify a settings file.
-  [(-q -o FILE)]     Quietly, must specify -o
-  (-d | --debug)     Loudly, Debug mode
-  (-h | --help)      Show this screen.
-  (-v | --version)   Show version.
+Options:
+  -o FILE     Set an output file
+  -s FILE     Reference a settings file
+  -d          Displays Debug Output
+  -h          This Screen
+  -v          Displays Version
 
 """
 
@@ -25,18 +31,19 @@ from docopt import docopt
 
 if __name__ == '__main__':
     arguments = docopt(doc, version='0.1')
+    print(arguments)
 
 if arguments['-s'] != None:
     if os.path.exists(arguments['-s']) == True:
-        print("Using Command Line Specified File")
+        func.outputting(arguments['-q'], arguments['-o'], "Using Command Line Specified Settings File")
         settings = yaml.load(open(arguments['-s'], 'r'))
     else:
-        print(arguments['-s'] + " does not exist.\n")
+        func.outputting(arguments['-q'], arguments['-o'], arguments['-s'] + " does not exist.\n")
         quit()
 else:
     settings = yaml.load(open("settings.yml", 'r'))
 
-if arguments['-q'] != None:
+if arguments['-q'] != None and arguments['-q'] == True :
     if arguments['-o'] == None:
         print('-o must be specified if using -q')
         quit()
