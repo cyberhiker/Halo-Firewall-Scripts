@@ -1,0 +1,14 @@
+
+# Variables:
+# iterations:             How many times we will 'wait 10s and retry'
+# servergroupname         Name of Server Group to iterate Rules (leave blank for all)
+# clientid:               API key
+# clientsecret:           API secret
+# host:                   API host
+
+iterations: 10
+servergroupname: ''
+clientid: ''
+clientsecret: ''
+
+host: 'api.cloudpassage.com'
