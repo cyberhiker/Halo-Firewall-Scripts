@@ -16,14 +16,15 @@ Usage:
   fwparse.py [-o FILE]
   fwparse.py [-s FILE]
   fwparse.py [(-q -o FILE)]
-  fwparse.py [-dhv]
+  fwparse.py [-d]
+  fwparse.py [-h]
 
 Options:
   -o FILE     Set an output file
-  -s FILE     Reference a settings file
+  -s FILE     Reference a settings file outside this directory
+  -q          Quietly, must use -o
   -d          Displays Debug Output
   -h          This Screen
-  -v          Displays Version
 ```
 
 That's it.
