@@ -11,4 +11,4 @@ servergroupname: ''
 clientid: ''
 clientsecret: ''
 
-host: 'api-govcloud.cloudpassage.com'
+host: 'api.cloudpassage.com'

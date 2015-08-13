@@ -12,13 +12,18 @@ pip install -r requirements.txt
 ## Running
 
 ```
-Usage: fwparse.py
-  [-o FILE]          Output to a specified file.
-  [-s FILE]          Specify a settings file.
-  [(-q -o FILE)]     Quietly, must specify -o
-  (-d | --debug)     Loudly, Debug mode
-  (-h | --help)      Show this screen.
-  (-v | --version)   Show version.
+Usage:
+  fwparse.py [-o FILE]
+  fwparse.py [-s FILE]
+  fwparse.py [(-q -o FILE)]
+  fwparse.py [-dhv]
+
+Options:
+  -o FILE     Set an output file
+  -s FILE     Reference a settings file
+  -d          Displays Debug Output
+  -h          This Screen
+  -v          Displays Version
 ```
 
 That's it.

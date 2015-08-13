@@ -56,5 +56,11 @@ docs/_build/
 # PyBuilder
 target/
 
-#OS X
+# OS X
 .DS_Store
+
+# Data files
+*.csv
+*.json
+test.*
+text.*
