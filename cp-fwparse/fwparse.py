@@ -67,7 +67,7 @@ if PolicyData['count'] == 0:
 ZoneData = func.apiCall(url + 'firewall_zones', 'get', authHeader, arguments, settings)
 
 # Print a Header
-MyLine = 'Source Name|Destination Zone|Destination IP(s)||Service Name|Port|Protocol|Active|Direction|Action|Description'
+MyLine = 'Source Name|Source IP(s)|Destination Zone|Service Name|Port|Protocol|Active|Direction|Action|Description'
 func.outputting(arguments['-q'], arguments['-o'], MyLine)
 
 # Cycle through the zones to find who uses them and what they are configured for.
@@ -106,8 +106,8 @@ for s in ZoneData['firewall_zones']:
                 pass
 
             # Construct the line to be written
-            NewLine = s['name'] + '|' + \
-                    destinationname + '|' + s['ip_address'] + '|' + \
+            NewLine = s['name'] + '|' + s['ip_address'] + '|' + \
+                    destinationname + '|' + \
                     str(servicename)  + '|' + \
                     str(serviceport) + '|' + \
                     str(protocol) + '|' + \

@@ -1,287 +1,287 @@
 Source Name|Source IP(s)|Destination Zone|Service Name|Port|Protocol|Active|Direction|Action|Description
-All GhostPorts users|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Unrestricted Scanners|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Jenkins Hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps www hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps LDAP|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Marketing Prod www servers|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Marketing Staging www servers|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-QA Hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-pair programming hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Staging App|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Windows Build|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Staging App|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps qastaging app hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Topcap app hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps lichi app|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Prod App Hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Staging AWS App|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Zink app hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps govcloud app hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Sandbox App|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-QA Staging app|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Dev App|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps sltest app hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps bass app hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps perf app hosts|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps nonpublic www|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps nonprod Content Servers|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps prod Content Servers|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Jira|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Dev Generic|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-security-cloudpassage-syslog3|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Dev Git|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Devops Git Servers|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps New WWW servers|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Prod Analytics|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Dev Git|173.164.14.4|AIX - cloud.sitox.com|https|443|TCP|True|INPUT|ACCEPT|
-All GhostPorts users|173.164.14.4|AIX - cloud.sitox.com|https|443|TCP|True|INPUT|ACCEPT|
-All GhostPorts users|173.164.14.4|AIX - cloud.sitox.com|http|80|TCP|True|INPUT|ACCEPT|
-DevOps Bastion Hosts|173.164.14.4|AIX - cloud.sitox.com|http|80|TCP|True|INPUT|ACCEPT|
-static bastion hosts|173.164.14.4|AIX - cloud.sitox.com|http|80|TCP|True|INPUT|ACCEPT|
-Syslog/Monitor|173.164.14.4|AIX - cloud.sitox.com|http|80|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps www hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps LDAP|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Marketing Prod www servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Marketing Staging www servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|QA Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|pair programming hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Staging App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Windows Build|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Staging App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps qastaging app hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Topcap app hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps lichi app|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Prod App Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Staging AWS App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Zink app hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps govcloud app hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Sandbox App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|QA Staging app|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Dev App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps sltest app hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps bass app hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps perf app hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps nonpublic www|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps nonprod Content Servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps prod Content Servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Jira|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Dev Generic|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|security-cloudpassage-syslog3|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Dev Git|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Devops Git Servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps New WWW servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Prod Analytics|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Dev Git|https|443|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|All GhostPorts users|https|443|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|All GhostPorts users|http|80|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|DevOps Bastion Hosts|http|80|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|static bastion hosts|http|80|TCP|True|INPUT|ACCEPT|
+AIX - cloud.sitox.com|173.164.14.4|Syslog/Monitor|http|80|TCP|True|INPUT|ACCEPT|
 AIX - cloud.sitox.com|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
 AIX - cloud.sitox.com|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|REJECT|
 AIX - cloud.sitox.com|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|INPUT|DROP|
 AIX - cloud.sitox.com|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|
 AIX - cloud.sitox.com|173.164.14.4|AIX - cloud.sitox.com|cp-ssh|10022|TCP|True|OUTPUT|DROP|
-Unrestricted Scanners|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-All GhostPorts users|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|http|80|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-whitehats hosts|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-All GhostPorts users|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|All GhostPorts users|http|80|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|whitehats hosts|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|All GhostPorts users|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
 AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-All active servers|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-All GhostPorts users|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-DevOps Bastion Hosts|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-static bastion hosts|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-Syslog/Monitor|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|upd-161|161|UDP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-Syslog/Monitor|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|nrpe|5666|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-Syslog/Monitor|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|https|443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-Syslog/Monitor|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-Syslog/Monitor|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-Syslog/Monitor|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|http|80|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-Syslog/Monitor|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|http|80|TCP|True|INPUT|DROP|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-Syslog/Monitor|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|AppDirect IPs|http|80|TCP|True|OUTPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
-All GhostPorts users|64.124.161.130|CP HQ|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
-Unrestricted Scanners|64.124.161.130|CP HQ|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
-DevOps Bastion Hosts|64.124.161.130|CP HQ|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
-static bastion hosts|64.124.161.130|CP HQ|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|All active servers|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Syslog/Monitor|upd-161|161|UDP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Syslog/Monitor|nrpe|5666|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Syslog/Monitor|https|443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Syslog/Monitor|gp-https|10443|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Syslog/Monitor|cp-ssh|10022|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Syslog/Monitor|http|80|TCP|True|INPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Syslog/Monitor|http|80|TCP|True|INPUT|DROP|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+AppDirect IPs|54.243.191.128/25, 54.243.191.64/26, 108.166.48.151, 108.166.48.154, 54.241.19.227, 54.241.19.232, 54.243.217.248, 54.243.217.252, 108.166.48.152, 108.166.48.155, 54.241.19.239, 54.241.19.244, 54.243.218.9, 54.243.218.17|Syslog/Monitor|http|80|TCP|True|OUTPUT|ACCEPT|AppDirect Prod and Test environments and proxies.    https://devopswiki.cloudpassage.com/dokuwiki/doku.php?id=appdirect_ip_info
+CP HQ|64.124.161.130|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
+CP HQ|64.124.161.130|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
+CP HQ|64.124.161.130|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
+CP HQ|64.124.161.130|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
 CP HQ|64.124.161.130|CP HQ|cp-ssh|10022|TCP|True|INPUT|ACCEPT|NAT IP used by SF office.
 CP HQ|64.124.161.130|CP HQ|cp-ssh|10022|TCP|True|INPUT|DROP|NAT IP used by SF office.
 CP HQ|64.124.161.130|CP HQ|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|NAT IP used by SF office.
-All GhostPorts users|204.8.46.130|Ford.stearns.org|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Destination for pushing out logs, files, and system information during forensics.
-Unrestricted Scanners|204.8.46.130|Ford.stearns.org|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Destination for pushing out logs, files, and system information during forensics.
-static bastion hosts|204.8.46.130|Ford.stearns.org|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Destination for pushing out logs, files, and system information during forensics.
-static bastion hosts|204.8.46.130|Ford.stearns.org|cp-ssh|10022|TCP|True|INPUT|DROP|Destination for pushing out logs, files, and system information during forensics.
-static bastion hosts|204.8.46.130|Ford.stearns.org|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Destination for pushing out logs, files, and system information during forensics.
-static bastion hosts|204.8.46.130|Ford.stearns.org|cp-ssh|10022|TCP|True|OUTPUT|REJECT|Destination for pushing out logs, files, and system information during forensics.
-All GhostPorts users|10.1.2.0/24|HQ LAN|https|443|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Unrestricted Scanners|10.1.2.0/24|HQ LAN|https|443|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-All active servers|10.1.2.0/24|HQ LAN|https|443|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-All active servers|10.1.2.0/24|HQ LAN|http|80|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-All active servers|10.1.2.0/24|HQ LAN|open-yum|9988|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-All GhostPorts users|10.1.2.0/24|HQ LAN|open-yum|9988|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+Ford.stearns.org|204.8.46.130|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Destination for pushing out logs, files, and system information during forensics.
+Ford.stearns.org|204.8.46.130|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Destination for pushing out logs, files, and system information during forensics.
+Ford.stearns.org|204.8.46.130|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Destination for pushing out logs, files, and system information during forensics.
+Ford.stearns.org|204.8.46.130|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|DROP|Destination for pushing out logs, files, and system information during forensics.
+Ford.stearns.org|204.8.46.130|static bastion hosts|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Destination for pushing out logs, files, and system information during forensics.
+Ford.stearns.org|204.8.46.130|static bastion hosts|cp-ssh|10022|TCP|True|OUTPUT|REJECT|Destination for pushing out logs, files, and system information during forensics.
+HQ LAN|10.1.2.0/24|All GhostPorts users|https|443|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|Unrestricted Scanners|https|443|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|All active servers|https|443|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|All active servers|http|80|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|All active servers|open-yum|9988|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|All GhostPorts users|open-yum|9988|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
 HQ LAN|10.1.2.0/24|HQ LAN|https|443|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-All GhostPorts users|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps www hosts|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Staging loadbalancers|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-QA Hosts|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Marketing Staging www servers|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Marketing Prod www servers|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-pair programming hosts|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps www hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Staging loadbalancers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|QA Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Marketing Staging www servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Marketing Prod www servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|pair programming hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
 HQ LAN|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Staging App|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Windows Build|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Staging App|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Dev App|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Prod App Hosts|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Staging AWS App|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Sandbox App|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-QA Staging app|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps nonpublic www|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Jira|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Dev Generic|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Ghostports Giveaway|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-CloudPassage (prod)|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Dev Git|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Prod memcached|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-Jenkins Hosts|10.1.2.0/24|HQ LAN|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-All active servers|10.1.2.0/24|HQ LAN|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-DevOps Bastion Hosts|10.1.2.0/24|HQ LAN|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-static bastion hosts|10.1.2.0/24|HQ LAN|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-CP HQ|10.1.2.0/24|HQ LAN|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-CP HQ|10.1.2.0/24|HQ LAN|Syslog UDP|514|UDP|True|INPUT|REJECT|Internal IP address range for SF office.  Zone used for vpn rules.
-CP HQ|10.1.2.0/24|HQ LAN|Syslog UDP|514|UDP|True|OUTPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
-static bastion hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-Unrestricted Scanners|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-Jenkins Hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps Bastion Hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps Prod DBs|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+HQ LAN|10.1.2.0/24|Staging App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Windows Build|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Staging App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|Dev App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Prod App Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Staging AWS App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|Sandbox App|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|QA Staging app|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps nonpublic www|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|Jira|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|Dev Generic|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|Ghostports Giveaway|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|CloudPassage (prod)|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|Dev Git|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Prod memcached|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|All active servers|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|DevOps Bastion Hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|static bastion hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|CP HQ|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|CP HQ|Syslog UDP|514|UDP|True|INPUT|REJECT|Internal IP address range for SF office.  Zone used for vpn rules.
+HQ LAN|10.1.2.0/24|CP HQ|Syslog UDP|514|UDP|True|OUTPUT|ACCEPT|Internal IP address range for SF office.  Zone used for vpn rules.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|static bastion hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|Unrestricted Scanners|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps Prod DBs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
 internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-pgpool VIP|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps Prod App Hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps Prod Reporting Servers|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps Prod Analytics|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-Syslog/Monitor|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-prod barman1|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps dashboard hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|https|443|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps dashboard hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|https|443|TCP|True|INPUT|DROP|Prod DB hosts' internal addresses.
-DevOps dashboard hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|https|443|TCP|True|OUTPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps dashboard hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|https|443|TCP|False|OUTPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps dashboard hosts|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|internal IPs for prod db hosts 2|https|443|TCP|True|OUTPUT|ACCEPT|Prod DB hosts' internal addresses.
-DevOps dashboard hosts|127.0.0.1|localhost|https|443|TCP|True|INPUT|ACCEPT|Localhost.
-Unrestricted Scanners|127.0.0.1|localhost|https|443|TCP|True|INPUT|ACCEPT|Localhost.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|pgpool VIP|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps Prod App Hosts|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps Prod Reporting Servers|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps Prod Analytics|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|Syslog/Monitor|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|prod barman1|postgresql|5432|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps dashboard hosts|https|443|TCP|True|INPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps dashboard hosts|https|443|TCP|True|INPUT|DROP|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps dashboard hosts|https|443|TCP|True|OUTPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps dashboard hosts|https|443|TCP|False|OUTPUT|ACCEPT|Prod DB hosts' internal addresses.
+internal IPs for prod db hosts 2|10.183.44.34, 10.183.49.156, 10.183.49.155, 10.182.97.221, 10.183.38.249, 10.183.32.14|DevOps dashboard hosts|https|443|TCP|True|OUTPUT|ACCEPT|Prod DB hosts' internal addresses.
+localhost|127.0.0.1|DevOps dashboard hosts|https|443|TCP|True|INPUT|ACCEPT|Localhost.
+localhost|127.0.0.1|Unrestricted Scanners|https|443|TCP|True|INPUT|ACCEPT|Localhost.
 localhost|127.0.0.1|localhost|ldap|389|TCP|True|INPUT|ACCEPT|Localhost.
 localhost|127.0.0.1|localhost|ldap|389|TCP|True|INPUT|DROP|Localhost.
 localhost|127.0.0.1|localhost|ldap|389|TCP|True|OUTPUT|ACCEPT|Localhost.
-All GhostPorts users|10.0.0.0/8|Office Network|http|80|TCP|True|INPUT|ACCEPT|HQ Office Network
-All GhostPorts users|10.0.0.0/8|Office Network|https|443|TCP|True|INPUT|ACCEPT|HQ Office Network
-All GhostPorts users|10.0.0.0/8|Office Network|cp-ssh|10022|TCP|True|INPUT|ACCEPT|HQ Office Network
-All GhostPorts users|10.0.0.0/8|Office Network|ssh|22|TCP|True|INPUT|ACCEPT|HQ Office Network
-Syslog/Monitor|10.0.0.0/8|Office Network|ssh|22|TCP|True|INPUT|ACCEPT|HQ Office Network
+Office Network|10.0.0.0/8|All GhostPorts users|http|80|TCP|True|INPUT|ACCEPT|HQ Office Network
+Office Network|10.0.0.0/8|All GhostPorts users|https|443|TCP|True|INPUT|ACCEPT|HQ Office Network
+Office Network|10.0.0.0/8|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|HQ Office Network
+Office Network|10.0.0.0/8|All GhostPorts users|ssh|22|TCP|True|INPUT|ACCEPT|HQ Office Network
+Office Network|10.0.0.0/8|Syslog/Monitor|ssh|22|TCP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|Syslog-Ports-TCP|514,5140|TCP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|Syslog-UDP|514|UDP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|Netflow|2055|UDP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|ssh-10022|10022|TCP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|ssh|22|TCP|True|INPUT|ACCEPT|HQ Office Network
-All GhostPorts users|10.0.0.0/8|Office Network|nTop GUI|3000|TCP|True|INPUT|ACCEPT|HQ Office Network
+Office Network|10.0.0.0/8|All GhostPorts users|nTop GUI|3000|TCP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|nTop GUI|3000|TCP|True|INPUT|ACCEPT|HQ Office Network
-All GhostPorts users|10.0.0.0/8|Office Network|tcp-8080|8080|TCP|True|INPUT|ACCEPT|HQ Office Network
+Office Network|10.0.0.0/8|All GhostPorts users|tcp-8080|8080|TCP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|tcp-8080|8080|TCP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|Moloch Server Port|8005|TCP|True|INPUT|ACCEPT|HQ Office Network
 Office Network|10.0.0.0/8|Office Network|Additional Moloch Ports|9200,9300|TCP|True|INPUT|ACCEPT|HQ Office Network
-All GhostPorts users|10.0.0.0/8|Office Network|Moloch Server Port|8005|TCP|True|INPUT|ACCEPT|HQ Office Network
-All GhostPorts users|10.0.0.0/8|Office Network|Moloch Server Port|8005|TCP|True|INPUT|DROP|HQ Office Network
-All GhostPorts users|10.0.0.0/8|Office Network|Moloch Server Port|8005|TCP|True|OUTPUT|ACCEPT|HQ Office Network
-All GhostPorts users|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-Unrestricted Scanners|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-All GhostPorts users|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|mosh|60000-61000|UDP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-opsstaging rackspace lb|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+Office Network|10.0.0.0/8|All GhostPorts users|Moloch Server Port|8005|TCP|True|INPUT|ACCEPT|HQ Office Network
+Office Network|10.0.0.0/8|All GhostPorts users|Moloch Server Port|8005|TCP|True|INPUT|DROP|HQ Office Network
+Office Network|10.0.0.0/8|All GhostPorts users|Moloch Server Port|8005|TCP|True|OUTPUT|ACCEPT|HQ Office Network
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|All GhostPorts users|mosh|60000-61000|UDP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging rackspace lb|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
 opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-All GhostPorts users|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-All active servers|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-DevOps Staging loadbalancers|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-opsstaging rackspace lb|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|gp-https|10443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-Dev Generic|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|gp-https|10443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-Syslog/Monitor|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|tcp-8081|8081|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-DevOps Staging DBs|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|tcp-8081|8081|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-All GhostPorts users|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|tcp-8081|8081|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-Jenkins Hosts|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|tcp-8081|8081|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-All GhostPorts users|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|http|80|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-All GhostPorts users|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|gp-https|10443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-All active servers|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|gp-https|10443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-DevOps Staging DBs|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|tcp-5666|5666|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-Jenkins Hosts|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-DevOps Bastion Hosts|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-static bastion hosts|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-static bastion hosts|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|cp-ssh|10022|TCP|True|INPUT|DROP|IPs that are running daemons that use the opsstaging cluster
-static bastion hosts|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging daemons|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
-All GhostPorts users|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-All GhostPorts users|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|mosh|60000-61000|UDP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-Unrestricted Scanners|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|mosh|60000-61000|UDP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|All GhostPorts users|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|All active servers|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|DevOps Staging loadbalancers|https|443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|opsstaging rackspace lb|gp-https|10443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|Dev Generic|gp-https|10443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|Syslog/Monitor|tcp-8081|8081|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|DevOps Staging DBs|tcp-8081|8081|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|All GhostPorts users|tcp-8081|8081|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|Jenkins Hosts|tcp-8081|8081|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|All GhostPorts users|http|80|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|All GhostPorts users|gp-https|10443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|All active servers|gp-https|10443|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|DevOps Staging DBs|tcp-5666|5666|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|DROP|IPs that are running daemons that use the opsstaging cluster
+opsstaging daemons|50.57.69.66, 54.176.171.185, 54.176.171.235, 54.183.206.176, 54.190.33.236, 54.219.54.79, 54.226.166.6, 54.244.158.232, 50.57.69.151, 54.183.111.26, 54.176.0.223, 54.176.37.61, 54.151.41.55, 162.242.213.13|static bastion hosts|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|IPs that are running daemons that use the opsstaging cluster
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|All GhostPorts users|mosh|60000-61000|UDP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|Unrestricted Scanners|mosh|60000-61000|UDP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
 opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|https|443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-DevOps Staging AWS lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|https|443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|DevOps Staging AWS lb|https|443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
 opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|gp-https|10443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-Dev Generic|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|gp-https|10443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-Syslog/Monitor|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|tcp-8081|8081|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-All GhostPorts users|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|tcp-8081|8081|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-All GhostPorts users|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|http|80|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-All GhostPorts users|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|gp-https|10443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-QA Hosts|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|gp-https|10443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-Syslog/Monitor|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|tcp-5666|5666|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-Syslog/Monitor|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|upd-161|161|UDP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-DevOps Munin servers|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-DevOps Bastion Hosts|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-static bastion hosts|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
-static bastion hosts|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|cp-ssh|10022|TCP|True|INPUT|DROP|Load balancer IPs in Rackspace.
-static bastion hosts|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|opsstaging rackspace lb|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Load balancer IPs in Rackspace.
-static bastion hosts|50.57.174.133|pgpool VIP|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-Unrestricted Scanners|50.57.174.133|pgpool VIP|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-Jenkins Hosts|50.57.174.133|pgpool VIP|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps Bastion Hosts|50.57.174.133|pgpool VIP|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps Prod DBs|50.57.174.133|pgpool VIP|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-internal IPs for prod db hosts 2|50.57.174.133|pgpool VIP|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|Dev Generic|gp-https|10443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|Syslog/Monitor|tcp-8081|8081|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|All GhostPorts users|tcp-8081|8081|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|All GhostPorts users|http|80|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|All GhostPorts users|gp-https|10443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|QA Hosts|gp-https|10443|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|Syslog/Monitor|tcp-5666|5666|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|Syslog/Monitor|upd-161|161|UDP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|DevOps Munin servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|DROP|Load balancer IPs in Rackspace.
+opsstaging rackspace lb|198.61.150.245, 184.106.100.0/24, 50.57.214.0/24, 54.241.19.227/24|static bastion hosts|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Load balancer IPs in Rackspace.
+pgpool VIP|50.57.174.133|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps Prod DBs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|internal IPs for prod db hosts 2|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
 pgpool VIP|50.57.174.133|pgpool VIP|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps Prod App Hosts|50.57.174.133|pgpool VIP|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps Prod Reporting Servers|50.57.174.133|pgpool VIP|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps Prod Analytics|50.57.174.133|pgpool VIP|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-Syslog/Monitor|50.57.174.133|pgpool VIP|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-prod barman1|50.57.174.133|pgpool VIP|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps dashboard hosts|50.57.174.133|pgpool VIP|https|443|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps dashboard hosts|50.57.174.133|pgpool VIP|https|443|TCP|True|INPUT|DROP|Virtual IP used by postgres database machines.
-DevOps dashboard hosts|50.57.174.133|pgpool VIP|https|443|TCP|True|OUTPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps dashboard hosts|50.57.174.133|pgpool VIP|https|443|TCP|False|OUTPUT|ACCEPT|Virtual IP used by postgres database machines.
-DevOps dashboard hosts|50.57.174.133|pgpool VIP|https|443|TCP|True|OUTPUT|ACCEPT|Virtual IP used by postgres database machines.
-static bastion hosts|162.209.6.23|prod barman1|https|443|TCP|True|INPUT|ACCEPT|New Production Nagios install
-Unrestricted Scanners|162.209.6.23|prod barman1|https|443|TCP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Bastion Hosts|162.209.6.23|prod barman1|https|443|TCP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod memcached|162.209.6.23|prod barman1|IKE|500|UDP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod memcached|162.209.6.23|prod barman1|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod App Hosts|162.209.6.23|prod barman1|IKE|500|UDP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod App Hosts|162.209.6.23|prod barman1|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|New Production Nagios install
-Jenkins Hosts|162.209.6.23|prod barman1|cp-ssh|10022|TCP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod App Hosts|162.209.6.23|prod barman1|Memcached-11211|11211|TCP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod App Hosts|162.209.6.23|prod barman1|redis|6379|TCP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod memcached|162.209.6.23|prod barman1|redis|6379|TCP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod App Hosts|162.209.6.23|prod barman1|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|New Production Nagios install
-DevOps Prod memcached|162.209.6.23|prod barman1|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|New Production Nagios install
-Syslog/Monitor|162.209.6.23|prod barman1|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|New Production Nagios install
+pgpool VIP|50.57.174.133|DevOps Prod App Hosts|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps Prod Reporting Servers|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps Prod Analytics|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|Syslog/Monitor|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|prod barman1|postgresql|5432|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps dashboard hosts|https|443|TCP|True|INPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps dashboard hosts|https|443|TCP|True|INPUT|DROP|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps dashboard hosts|https|443|TCP|True|OUTPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps dashboard hosts|https|443|TCP|False|OUTPUT|ACCEPT|Virtual IP used by postgres database machines.
+pgpool VIP|50.57.174.133|DevOps dashboard hosts|https|443|TCP|True|OUTPUT|ACCEPT|Virtual IP used by postgres database machines.
+prod barman1|162.209.6.23|static bastion hosts|https|443|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|Unrestricted Scanners|https|443|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Bastion Hosts|https|443|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod memcached|IKE|500|UDP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod memcached|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod App Hosts|IKE|500|UDP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod App Hosts|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod App Hosts|Memcached-11211|11211|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod App Hosts|redis|6379|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod memcached|redis|6379|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod App Hosts|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|DevOps Prod memcached|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|New Production Nagios install
+prod barman1|162.209.6.23|Syslog/Monitor|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|New Production Nagios install
 prod barman1|162.209.6.23|prod barman1|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|New Production Nagios install
 prod barman1|162.209.6.23|prod barman1|zookeeper|2181,2888,3888|TCP|True|INPUT|DROP|New Production Nagios install
 prod barman1|162.209.6.23|prod barman1|zookeeper|2181,2888,3888|TCP|True|OUTPUT|ACCEPT|New Production Nagios install
-All GhostPorts users|10.176.65.14|qa2-app1 internal|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-Staging DB|10.176.65.14|qa2-app1 internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-Unrestricted Scanners|10.176.65.14|qa2-app1 internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-DevOps Bastion Hosts|10.176.65.14|qa2-app1 internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-static bastion hosts|10.176.65.14|qa2-app1 internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-Staging App|10.176.65.14|qa2-app1 internal|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-QA Staging app|10.176.65.14|qa2-app1 internal|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-qa-app1 internal interface|10.176.65.14|qa2-app1 internal|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|All GhostPorts users|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|Staging DB|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|Staging App|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|QA Staging app|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|qa-app1 internal interface|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
 qa2-app1 internal|10.176.65.14|qa2-app1 internal|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-Syslog/Monitor|10.176.65.14|qa2-app1 internal|nrpe|5666|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-Syslog/Monitor|10.176.65.14|qa2-app1 internal|upd-161|161|UDP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-Syslog/Monitor|10.176.65.14|qa2-app1 internal|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-Syslog/Monitor|10.176.65.14|qa2-app1 internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
-Syslog/Monitor|10.176.65.14|qa2-app1 internal|cp-ssh|10022|TCP|True|INPUT|DROP|Internal IP for secondary cluster database.
-Syslog/Monitor|10.176.65.14|qa2-app1 internal|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Internal IP for secondary cluster database.
-All GhostPorts users|10.179.247.163|qa-app1 internal interface|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-Staging DB|10.179.247.163|qa-app1 internal interface|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-Unrestricted Scanners|10.179.247.163|qa-app1 internal interface|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-DevOps Bastion Hosts|10.179.247.163|qa-app1 internal interface|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-static bastion hosts|10.179.247.163|qa-app1 internal interface|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-Staging App|10.179.247.163|qa-app1 internal interface|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-QA Staging app|10.179.247.163|qa-app1 internal interface|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa2-app1 internal|10.176.65.14|Syslog/Monitor|nrpe|5666|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|Syslog/Monitor|upd-161|161|UDP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|Syslog/Monitor|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|Syslog/Monitor|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|Syslog/Monitor|cp-ssh|10022|TCP|True|INPUT|DROP|Internal IP for secondary cluster database.
+qa2-app1 internal|10.176.65.14|Syslog/Monitor|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Internal IP for secondary cluster database.
+qa-app1 internal interface|10.179.247.163|All GhostPorts users|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Staging DB|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Staging App|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|QA Staging app|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
 qa-app1 internal interface|10.179.247.163|qa-app1 internal interface|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-qa2-app1 internal|10.179.247.163|qa-app1 internal interface|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-Syslog/Monitor|10.179.247.163|qa-app1 internal interface|nrpe|5666|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-Syslog/Monitor|10.179.247.163|qa-app1 internal interface|upd-161|161|UDP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-Syslog/Monitor|10.179.247.163|qa-app1 internal interface|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-Syslog/Monitor|10.179.247.163|qa-app1 internal interface|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
-Syslog/Monitor|10.179.247.163|qa-app1 internal interface|cp-ssh|10022|TCP|True|INPUT|DROP|Internal IP for secondary cluster app server.
-Syslog/Monitor|10.179.247.163|qa-app1 internal interface|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Internal IP for secondary cluster app server.
-Syslog/Monitor|172.17.0.0/16|Reactor docker access|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Reactor|172.17.0.0/16|Reactor docker access|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+qa-app1 internal interface|10.179.247.163|qa2-app1 internal|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Syslog/Monitor|nrpe|5666|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Syslog/Monitor|upd-161|161|UDP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Syslog/Monitor|postgresql|5432|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Syslog/Monitor|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Syslog/Monitor|cp-ssh|10022|TCP|True|INPUT|DROP|Internal IP for secondary cluster app server.
+qa-app1 internal interface|10.179.247.163|Syslog/Monitor|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Internal IP for secondary cluster app server.
+Reactor docker access|172.17.0.0/16|Syslog/Monitor|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+Reactor docker access|172.17.0.0/16|Reactor|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
 Reactor docker access|172.17.0.0/16|Reactor docker access|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
 Reactor docker access|172.17.0.0/16|Reactor docker access|cp-ssh|10022|TCP|True|INPUT|DROP|
 Reactor docker access|172.17.0.0/16|Reactor docker access|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|
 rfc1918 Class A|10.0.0.0/8|rfc1918 Class A|iscsi|3260|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
-All active servers|10.0.0.0/8|rfc1918 Class A|Syslog-Ports-TCP|514,5140|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
-All active servers|10.0.0.0/8|rfc1918 Class A|Syslog UDP|514|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
-Unrestricted Scanners|10.0.0.0/8|rfc1918 Class A|Syslog UDP|514|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
-All GhostPorts users|10.0.0.0/8|rfc1918 Class A|mosh|60000-61000|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
-DevOps qastaging cassandra|10.0.0.0/8|rfc1918 Class A|mosh|60000-61000|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
-DevOps qastaging app hosts|10.0.0.0/8|rfc1918 Class A|cassandra|9160|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
-DevOps qastaging app hosts|10.0.0.0/8|rfc1918 Class A|cassandra-binary|9042|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
-DevOps qastaging app hosts|10.0.0.0/8|rfc1918 Class A|solr|8983|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
-All GhostPorts users|10.0.0.0/8|rfc1918 Class A|dse-opscenter|8443|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
-DevOps qastaging app hosts|10.0.0.0/8|rfc1918 Class A|IKE|500|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
-DevOps qastaging app hosts|10.0.0.0/8|rfc1918 Class A|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
-DevOps Bastion Hosts|10.0.0.0/8|rfc1918 Class A|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
-static bastion hosts|10.0.0.0/8|rfc1918 Class A|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
-DevOps qastaging DBs|10.0.0.0/8|rfc1918 Class A|nrpe|5666|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
-Jenkins Hosts|10.0.0.0/8|rfc1918 Class A|cp-ssh|10022|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
-Jenkins Hosts|10.0.0.0/8|rfc1918 Class A|cp-ssh|10022|TCP|True|INPUT|DROP|General Class A Private Address Space
-Jenkins Hosts|10.0.0.0/8|rfc1918 Class A|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|All active servers|Syslog-Ports-TCP|514,5140|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|All active servers|Syslog UDP|514|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|Unrestricted Scanners|Syslog UDP|514|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|All GhostPorts users|mosh|60000-61000|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|DevOps qastaging cassandra|mosh|60000-61000|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|DevOps qastaging app hosts|cassandra|9160|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|DevOps qastaging app hosts|cassandra-binary|9042|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|DevOps qastaging app hosts|solr|8983|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|All GhostPorts users|dse-opscenter|8443|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|DevOps qastaging app hosts|IKE|500|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|DevOps qastaging app hosts|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|DevOps Bastion Hosts|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|static bastion hosts|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|DevOps qastaging DBs|nrpe|5666|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|DROP|General Class A Private Address Space
+rfc1918 Class A|10.0.0.0/8|Jenkins Hosts|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|General Class A Private Address Space
 rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|ssh|22|TCP|True|INPUT|ACCEPT|Reserved IP ranges used for local lans.
 rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Reserved IP ranges used for local lans.
 rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|Mesos|32768-61000|TCP|True|INPUT|ACCEPT|Reserved IP ranges used for local lans.
@@ -295,116 +295,116 @@ rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|IKE|500|UDP|Tr
 rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|Reserved IP ranges used for local lans.
 rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|https|443|TCP|True|INPUT|ACCEPT|Reserved IP ranges used for local lans.
 rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|kafka |6667,9092,9999|TCP|True|INPUT|ACCEPT|Reserved IP ranges used for local lans.
-Devops Vagrant Dev|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|kafka |6667,9092,9999|TCP|True|INPUT|ACCEPT|Reserved IP ranges used for local lans.
-Devops Vagrant Dev|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|kafka |6667,9092,9999|TCP|True|INPUT|DROP|Reserved IP ranges used for local lans.
-Devops Vagrant Dev|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|rfc1918 IPs|kafka |6667,9092,9999|TCP|True|OUTPUT|ACCEPT|Reserved IP ranges used for local lans.
-static bastion hosts|184.106.240.10|sanders|kafka |6667,9092,9999|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
-Unrestricted Scanners|184.106.240.10|sanders|kafka |6667,9092,9999|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
-All GhostPorts users|184.106.240.10|sanders|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
-All GhostPorts users|184.106.240.10|sanders|ssh|22|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
-DevOps Bastion Hosts|184.106.240.10|sanders|ssh|22|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
-tspencer Mesos Test|184.106.240.10|sanders|ssh|22|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
+rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|Devops Vagrant Dev|kafka |6667,9092,9999|TCP|True|INPUT|ACCEPT|Reserved IP ranges used for local lans.
+rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|Devops Vagrant Dev|kafka |6667,9092,9999|TCP|True|INPUT|DROP|Reserved IP ranges used for local lans.
+rfc1918 IPs|10.0.0.0/8, 192.168.0.0/16, 172.16.0.0/12|Devops Vagrant Dev|kafka |6667,9092,9999|TCP|True|OUTPUT|ACCEPT|Reserved IP ranges used for local lans.
+sanders|184.106.240.10|static bastion hosts|kafka |6667,9092,9999|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
+sanders|184.106.240.10|Unrestricted Scanners|kafka |6667,9092,9999|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
+sanders|184.106.240.10|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
+sanders|184.106.240.10|All GhostPorts users|ssh|22|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
+sanders|184.106.240.10|DevOps Bastion Hosts|ssh|22|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
+sanders|184.106.240.10|tspencer Mesos Test|ssh|22|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
 sanders|184.106.240.10|sanders|ssh|22|TCP|True|INPUT|ACCEPT|Sanders IP address, used for monitoring.
 sanders|184.106.240.10|sanders|ssh|22|TCP|True|INPUT|DROP|Sanders IP address, used for monitoring.
 sanders|184.106.240.10|sanders|ssh|22|TCP|True|OUTPUT|ACCEPT|Sanders IP address, used for monitoring.
-static bastion hosts|10.179.240.81|sanders internal|ssh|22|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-Unrestricted Scanners|10.179.240.81|sanders internal|ssh|22|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-All GhostPorts users|10.179.240.81|sanders internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-All GhostPorts users|10.179.240.81|sanders internal|cp-https|10443|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-QA Hosts|10.179.240.81|sanders internal|cp-https|10443|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-All GhostPorts users|10.179.240.81|sanders internal|mosh|60000-61000|UDP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-Dev Generic|10.179.240.81|sanders internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-DevOps Bastion Hosts|10.179.240.81|sanders internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-DevOps Staging AWS lb|10.179.240.81|sanders internal|http|80|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-DevOps Staging AWS lb|10.179.240.81|sanders internal|https|443|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-DevOps Staging AWS App|10.179.240.81|sanders internal|Memcached-11211|11211|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|static bastion hosts|ssh|22|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|Unrestricted Scanners|ssh|22|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|All GhostPorts users|cp-https|10443|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|QA Hosts|cp-https|10443|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|All GhostPorts users|mosh|60000-61000|UDP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|Dev Generic|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|DevOps Staging AWS lb|http|80|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|DevOps Staging AWS lb|https|443|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|DevOps Staging AWS App|Memcached-11211|11211|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
 sanders internal|10.179.240.81|sanders internal|upd-161|161|UDP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
 sanders internal|10.179.240.81|sanders internal|nrpe|5666|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-DevOps Staging AWS App|10.179.240.81|sanders internal|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-DevOps Staging AWS App|10.179.240.81|sanders internal|redis|6379|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-DevOps Munin servers|10.179.240.81|sanders internal|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
-DevOps Munin servers|10.179.240.81|sanders internal|cp-ssh|10022|TCP|True|INPUT|DROP|Sanders internal address, used for monitoring
-DevOps Munin servers|10.179.240.81|sanders internal|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Sanders internal address, used for monitoring
-Unrestricted Scanners|166.78.125.113|security-cloudpassage-syslog3|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Hubot|166.78.125.113|security-cloudpassage-syslog3|https|443|TCP|True|INPUT|ACCEPT|
-All GhostPorts users|166.78.125.113|security-cloudpassage-syslog3|https|443|TCP|True|INPUT|ACCEPT|
-DevOps Prod DBs|166.78.125.113|security-cloudpassage-syslog3|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-DevOps Bastion Hosts|166.78.125.113|security-cloudpassage-syslog3|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-static bastion hosts|166.78.125.113|security-cloudpassage-syslog3|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+sanders internal|10.179.240.81|DevOps Staging AWS App|zookeeper|2181,2888,3888|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|DevOps Staging AWS App|redis|6379|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|DevOps Munin servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|DevOps Munin servers|cp-ssh|10022|TCP|True|INPUT|DROP|Sanders internal address, used for monitoring
+sanders internal|10.179.240.81|DevOps Munin servers|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Sanders internal address, used for monitoring
+security-cloudpassage-syslog3|166.78.125.113|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+security-cloudpassage-syslog3|166.78.125.113|Hubot|https|443|TCP|True|INPUT|ACCEPT|
+security-cloudpassage-syslog3|166.78.125.113|All GhostPorts users|https|443|TCP|True|INPUT|ACCEPT|
+security-cloudpassage-syslog3|166.78.125.113|DevOps Prod DBs|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+security-cloudpassage-syslog3|166.78.125.113|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
+security-cloudpassage-syslog3|166.78.125.113|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
 security-cloudpassage-syslog3|166.78.125.113|security-cloudpassage-syslog3|cp-ssh|10022|TCP|True|INPUT|ACCEPT|
-Syslog/Monitor|166.78.125.113|security-cloudpassage-syslog3|nrpe|5666|TCP|True|INPUT|ACCEPT|
-Syslog/Monitor|166.78.125.113|security-cloudpassage-syslog3|upd-161|161|UDP|True|INPUT|ACCEPT|
-Syslog/Monitor|166.78.125.113|security-cloudpassage-syslog3|upd-161|161|UDP|True|INPUT|DROP|
-Syslog/Monitor|166.78.125.113|security-cloudpassage-syslog3|upd-161|161|UDP|True|OUTPUT|ACCEPT|
-Unrestricted Scanners|166.78.100.184, 54.235.15.74|static bastion hosts|upd-161|161|UDP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
-All GhostPorts users|166.78.100.184, 54.235.15.74|static bastion hosts|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
-DevOps Bastion Hosts|166.78.100.184, 54.235.15.74|static bastion hosts|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
+security-cloudpassage-syslog3|166.78.125.113|Syslog/Monitor|nrpe|5666|TCP|True|INPUT|ACCEPT|
+security-cloudpassage-syslog3|166.78.125.113|Syslog/Monitor|upd-161|161|UDP|True|INPUT|ACCEPT|
+security-cloudpassage-syslog3|166.78.125.113|Syslog/Monitor|upd-161|161|UDP|True|INPUT|DROP|
+security-cloudpassage-syslog3|166.78.125.113|Syslog/Monitor|upd-161|161|UDP|True|OUTPUT|ACCEPT|
+static bastion hosts|166.78.100.184, 54.235.15.74|Unrestricted Scanners|upd-161|161|UDP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
+static bastion hosts|166.78.100.184, 54.235.15.74|All GhostPorts users|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
+static bastion hosts|166.78.100.184, 54.235.15.74|DevOps Bastion Hosts|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
 static bastion hosts|166.78.100.184, 54.235.15.74|static bastion hosts|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
-All GhostPorts users|166.78.100.184, 54.235.15.74|static bastion hosts|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
-Syslog/Monitor|166.78.100.184, 54.235.15.74|static bastion hosts|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
-localhost|166.78.100.184, 54.235.15.74|static bastion hosts|postgresql|5432|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
-localhost|166.78.100.184, 54.235.15.74|static bastion hosts|postgresql|5432|TCP|True|INPUT|DROP|Bastion hosts used in case of Ghostports failure for ssh/rdp.
-localhost|166.78.100.184, 54.235.15.74|static bastion hosts|postgresql|5432|TCP|True|OUTPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
-localhost|24.22.66.11, 71.237.194.125|Strictly Truman Developers|postgresql|5432|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-All GhostPorts users|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-https|10443|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-All GhostPorts users|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-alt-ssl|9443|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+static bastion hosts|166.78.100.184, 54.235.15.74|All GhostPorts users|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
+static bastion hosts|166.78.100.184, 54.235.15.74|Syslog/Monitor|ssh-10022|10022|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
+static bastion hosts|166.78.100.184, 54.235.15.74|localhost|postgresql|5432|TCP|True|INPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
+static bastion hosts|166.78.100.184, 54.235.15.74|localhost|postgresql|5432|TCP|True|INPUT|DROP|Bastion hosts used in case of Ghostports failure for ssh/rdp.
+static bastion hosts|166.78.100.184, 54.235.15.74|localhost|postgresql|5432|TCP|True|OUTPUT|ACCEPT|Bastion hosts used in case of Ghostports failure for ssh/rdp.
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|localhost|postgresql|5432|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|All GhostPorts users|cp-https|10443|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|All GhostPorts users|cp-alt-ssl|9443|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
 Strictly Truman Developers|24.22.66.11, 71.237.194.125|Strictly Truman Developers|https|443|TCP|False|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-Unrestricted Scanners|24.22.66.11, 71.237.194.125|Strictly Truman Developers|https|443|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-Jenkins Hosts|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-All GhostPorts users|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-static bastion hosts|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-DevOps Bastion Hosts|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-Syslog/Monitor|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-DevOps Marketing Prod www servers|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-Syslog/Monitor|24.22.66.11, 71.237.194.125|Strictly Truman Developers|nrpe|5666|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-All GhostPorts users|24.22.66.11, 71.237.194.125|Strictly Truman Developers|ftp|21|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-All GhostPorts users|24.22.66.11, 71.237.194.125|Strictly Truman Developers|ProFTPd passive ports|50000-50030|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-sanders internal|24.22.66.11, 71.237.194.125|Strictly Truman Developers|upd-161|161|UDP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-DevOps www hosts|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-DevOps www hosts|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|INPUT|DROP|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-DevOps www hosts|24.22.66.11, 71.237.194.125|Strictly Truman Developers|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
-static bastion hosts|198.61.187.156|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Scanners with unrestricted access
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|Unrestricted Scanners|https|443|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|Syslog/Monitor|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|DevOps Marketing Prod www servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|Syslog/Monitor|nrpe|5666|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|All GhostPorts users|ftp|21|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|All GhostPorts users|ProFTPd passive ports|50000-50030|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|sanders internal|upd-161|161|UDP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|DevOps www hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|DevOps www hosts|cp-ssh|10022|TCP|True|INPUT|DROP|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Strictly Truman Developers|24.22.66.11, 71.237.194.125|DevOps www hosts|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Hey Peter,    Can you whitelist my home IP address so I can access the dev site? It’s 71.237.194.125.   There is a CMS config that I have to update to fix that. Should be the last one of these for now.        Thanks,  John    Hey Sheila,    It’s 24.22.66.11    Thanks,  John    —  John Coppa   Sincerely Truman   Director of Technology  john@sincerelytruman.com   503.956.1843
+Unrestricted Scanners|198.61.187.156|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Scanners with unrestricted access
 Unrestricted Scanners|198.61.187.156|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Scanners with unrestricted access
-All GhostPorts users|198.61.187.156|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Scanners with unrestricted access
-DevOps Bastion Hosts|198.61.187.156|Unrestricted Scanners|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Scanners with unrestricted access
-DevOps Bastion Hosts|198.61.187.156|Unrestricted Scanners|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Scanners with unrestricted access
-rfc1918 Class A|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|iscsi|3260|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-All active servers|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|Syslog-Ports-TCP|514,5140|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-All active servers|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-static bastion hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-Unrestricted Scanners|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps Bastion Hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging Memcached|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|IKE|500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+Unrestricted Scanners|198.61.187.156|All GhostPorts users|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Scanners with unrestricted access
+Unrestricted Scanners|198.61.187.156|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Scanners with unrestricted access
+Unrestricted Scanners|198.61.187.156|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|OUTPUT|ACCEPT|Scanners with unrestricted access
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|rfc1918 Class A|iscsi|3260|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|All active servers|Syslog-Ports-TCP|514,5140|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|All active servers|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|static bastion hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|Unrestricted Scanners|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps Bastion Hosts|Syslog UDP|514|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging Memcached|IKE|500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
 whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|gp-https|10443|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging Memcached|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging app hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|IKE|500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging app hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging cassandra|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|IKE|500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging cassandra|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-Jenkins Hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps Munin servers|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging Loadbalancers|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|http|80|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging Loadbalancers|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|https|443|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging app hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|Memcached-11211|11211|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging DBs|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|nrpe|5666|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging DBs|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|https|443|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging DBs|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|https|443|TCP|True|INPUT|DROP|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-DevOps qastaging DBs|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|whitehats hosts|https|443|TCP|True|OUTPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
-All GhostPorts users|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|http|80|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-Unrestricted Scanners|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|http|80|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-All GhostPorts users|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-QA Hosts|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-DevOps Logging hosts|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-All GhostPorts users|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|ssh-10022|10022|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-localhost|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|Jira|5432,8005,199|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-Syslog/Monitor|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-static bastion hosts|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-DevOps Bastion Hosts|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-Hubot|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging Memcached|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging app hosts|IKE|500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging app hosts|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging cassandra|IKE|500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging cassandra|IPsec NAT-Traversal|4500|UDP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|Jenkins Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps Munin servers|cp-ssh|10022|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging Loadbalancers|http|80|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging Loadbalancers|https|443|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging app hosts|Memcached-11211|11211|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging DBs|nrpe|5666|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging DBs|https|443|TCP|True|INPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging DBs|https|443|TCP|True|INPUT|DROP|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+whitehats hosts|63.128.163.0/27, 12.248.108.202/30, 67.207.113.226/28, 64.244.165.6/30, 38.122.74.18/30|DevOps qastaging DBs|https|443|TCP|True|OUTPUT|ACCEPT|Source of Whitehats security checks, provides access to dev, qa, and staging qa.  Pre-4/4/2014, was: "12.248.108.202, 67.207.113.226, 64.244.165.6, 38.122.74.18, 209.10.217.224/27, 63.128.163.0/27, 63.128.163.8"
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|All GhostPorts users|http|80|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Unrestricted Scanners|http|80|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|All GhostPorts users|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|QA Hosts|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|DevOps Logging hosts|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|All GhostPorts users|ssh-10022|10022|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|localhost|Jira|5432,8005,199|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Syslog/Monitor|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|static bastion hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|DevOps Bastion Hosts|cp-ssh|10022|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Hubot|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
 Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|rpc-111|111|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
 Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|tcp-8080|8080|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
 Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|http|80|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
 Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-Syslog/Monitor|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
-Syslog/Monitor|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|https|443|TCP|True|INPUT|DROP|IPs of zendesk servers
-Syslog/Monitor|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Zendesk|https|443|TCP|True|OUTPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Syslog/Monitor|https|443|TCP|True|INPUT|ACCEPT|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Syslog/Monitor|https|443|TCP|True|INPUT|DROP|IPs of zendesk servers
+Zendesk|23.253.8.0/24, 50.57.4.208/29, 50.57.199.0/27, 96.46.150.192/27, 96.46.156.0/24, 108.166.24.224/28, 108.166.31.240/29, 162.209.39.0/24, 173.203.47.128/27, 173.203.47.160/27, 174.137.46.0/24, 184.106.12.184/29, 184.106.40.64/28, 185.12.80.0/22, 192.161.144.0/20, 198.61.143.28/30, 198.61.149.152/29, 198.101.188.224/27|Syslog/Monitor|https|443|TCP|True|OUTPUT|ACCEPT|IPs of zendesk servers
